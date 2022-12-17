@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/p5@1.4.2/lib/p5.js"></script>
+	<link rel="icon" type="image/x-icon" href="images/favicon.png">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+	<script src="Model Deploy.js"></script>
+
+	<title>Welcome</title>
+	
+</head>
+<body style="background-color: #43a5f5;";>
+<div class="container">
+
+  <h1 style="  text-align: center; font-size:50px; color: #ffffff ;font-family: 'Raleway' sans-serif; font-size: 62px; font-weight: 800; line-height: 72px; margin: 0 0 24px; text-transform: uppercase;">Welcome to Workout AI</h1>
+    <div class="parent">
+      <p id="nName" class="child" style="  color: #f2f2f2;  line-height: 74px; font-weight: 700;  line-height: 74px; font-weight: 700; margin: 0 5px 24px; float: left; padding: 10px; margin: 0 5px 24px; font-family: 'Libre Baskerville', serif; float: left; padding: 10px; margin: 0 5px 24px; font-family: 'Libre Baskerville', serif;font-size:50px;  left:50%; top:20%;  position:absolute;">Take The following pose </p>
+      <h1 id="poseName" class="child" style=" color: #f2f2f2 ;font-family: 'Helvetica Neue', sans-serif; font-weight: bold; letter-spacing: -1px; line-height: 1; font-size:110px;left:66.3%; top:30%;  position:absolute;"><span> </span></h1>
+     <img id="poseImg" src="images/pose1.png" style="width:200px; height:160px; position: absolute; left:62%; top: 45%;">
+      <h1 style="color: #f2f2f2; font-size:50px; top:-20px; left:1000px; top:400px;  position:absolute;  top:70%; left:65%"><span id="zeit"></span></h1>
+      <h1 id='extra' style="color: #f2f2f2;font-size:50px; top:-20px; left:1000px;  position:absolute; top:82%; left:55%">seconds left to hold</h1>
+      <h1 id='extra1' style="color:#f2f2f2; font-family: 'Helvetica Neue', sans-serif; font-weight: bold; letter-spacing: -1px; line-height: 1;font-size:80px; top:-20px;   position:absolute; top:30%; left:50%"></h1>
+      
+
+</div>
+
+</div>
+</body>
+</html>
